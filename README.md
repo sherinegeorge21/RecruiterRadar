@@ -60,7 +60,7 @@ Both files are already in .gitignore, so you’re safe to commit the repo.
 
 
 Why an App Password? Google blocks normal passwords for SMTP; a 16-digit App Password bypasses that while 2-Step-Verification stays on. 
-medium.com
+
 
 2 Edit .env
 OPENAI_API_KEY=sk-...
