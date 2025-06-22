@@ -87,3 +87,7 @@ msg["From"] = msg["Reply-To"] = st.secrets["gmail_user"]
 
 You can swap in an alias like "Sherine George <jobs@mydomain.com>" — just keep gmail_user and gmail_pwd pointing to a real mailbox for authentication.
 
+## Demo
+
+[![Demo on YouTube](https://img.youtube.com/vi/Lh6fuhIiXpw/hqdefault.jpg)](https://www.youtube.com/watch?v=Lh6fuhIiXpw "Recruiter Radar demo — YouTube")
+
