@@ -1,0 +1,14 @@
+# ───────── files / folders to ignore ─────────
+react_ui/                 # the whole React build or source folder
+react_ui.code-workspace   # VS Code workspace file
+
+# (recommended) keep other common noise out too
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+venv/
+myenv/
+api_service.pyreact_ui/
+react_ui.code-workspace
+.DS_Store

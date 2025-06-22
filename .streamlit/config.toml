@@ -1,0 +1,19 @@
+[theme]
+base                  = "light"
+
+# Primary brand colour  – muted royal-blue buttons & links
+primaryColor          = "#2f5cdd"
+
+# Page background       – soft grey-blue (helps reduce pure-white glare)
+backgroundColor       = "#e7ecf3"     # IBM Gray 20 / Tailwind slate-100
+
+# Card / form background – light warm-gray so cards aren’t stark white
+secondaryBackground   = "#f4f6fa"     # subtle contrast with canvas
+
+# Text colour           – near-black for crisp titles / body
+textColor             = "#111111"
+
+# (optional) Accent colour for warnings or success banners
+# accentColor         = "#ff8559"     # soft coral, uncomment if desired
+
+font                  = "sans serif"
