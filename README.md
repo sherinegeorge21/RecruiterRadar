@@ -43,7 +43,6 @@ All private keys are kept in two local files:
 | **`.streamlit/secrets.toml`** | Gmail username + 16-digit App Password | 📧 SMTP sender                    |
 
 
-Both files are already in .gitignore, so you’re safe to commit the repo.
 
 ### 1. Create each key/password
 
@@ -68,8 +67,8 @@ Why an App Password? Google blocks normal passwords for SMTP; a 16-digit App Pas
 OPENAI_API_KEY=sk-...
 GOOGLE_CUSTOM_SEARCH_API_KEY=AIza...
 GOOGLE_CX_ID=96dc113b3b8004369
-load_dotenv() in the code automatically picks these up.
 ```
+load_dotenv() in the code automatically picks these up.
 
 ### 3. Edit .streamlit/secrets.toml
 ```bash
