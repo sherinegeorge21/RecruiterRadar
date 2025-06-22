@@ -59,6 +59,7 @@ Both files are already in .gitignore, so you’re safe to commit the repo.
 [4]: https://support.google.com/mail/answer/185833?hl=en&utm_source=chatgpt.com "Sign in with app passwords - Gmail Help"
 
 
+
 Why an App Password? Google blocks normal passwords for SMTP; a 16-digit App Password bypasses that while 2-Step-Verification stays on. 
 
 
