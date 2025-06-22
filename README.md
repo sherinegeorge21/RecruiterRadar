@@ -45,7 +45,7 @@ All private keys are kept in two local files:
 
 Both files are already in .gitignore, so you’re safe to commit the repo.
 
-1. Create each key/password
+### 1. Create each key/password
 
 | Purpose                                | Where to generate                                                                            | Docs                         |
 | -------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------- |
@@ -60,24 +60,22 @@ Both files are already in .gitignore, so you’re safe to commit the repo.
 [4]: https://support.google.com/mail/answer/185833?hl=en&utm_source=chatgpt.com "Sign in with app passwords - Gmail Help"
 
 
-
-
 Why an App Password? Google blocks normal passwords for SMTP; a 16-digit App Password bypasses that while 2-Step-Verification stays on. 
 
 
-2. Edit .env
+### 2. Edit .env
 OPENAI_API_KEY=sk-...
 GOOGLE_CUSTOM_SEARCH_API_KEY=AIza...
 GOOGLE_CX_ID=96dc113b3b8004369
 load_dotenv() in the code automatically picks these up. 
 
-3. Edit .streamlit/secrets.toml
+### 3. Edit .streamlit/secrets.toml
 gmail_user = "your.name@gmail.com"
 gmail_pwd  = "abcd efgh ijkl mnop"  # 16-digit App Password
 
 Streamlit injects st.secrets["gmail_user"] and st.secrets["gmail_pwd"] at runtime; they never leave your machine or Streamlit Cloud’s encrypted store. 
 
-4. Change the visible sender (optional)
+### 4. Change the visible sender (optional)
 Open emailer.py and edit the header:
 
 msg["From"] = msg["Reply-To"] = st.secrets["gmail_user"]
