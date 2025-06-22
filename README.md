@@ -46,6 +46,7 @@ All private keys are kept in two local files:
 Both files are already in .gitignore, so you’re safe to commit the repo.
 
 1. Create each key/password
+
 | Purpose                                | Where to generate                                                                            | Docs                         |
 | -------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------- |
 | **OpenAI API key**                     | [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys) | ([platform.openai.com][1])   |
@@ -57,6 +58,7 @@ Both files are already in .gitignore, so you’re safe to commit the repo.
 [2]: https://developers.google.com/custom-search/v1/introduction?utm_source=chatgpt.com "Custom Search JSON API: Introduction - Google for Developers"
 [3]: https://stackoverflow.com/questions/6562125/getting-a-cx-id-for-custom-search-google-api-python?utm_source=chatgpt.com "Getting a cx ID for custom search, Google API - Python"
 [4]: https://support.google.com/mail/answer/185833?hl=en&utm_source=chatgpt.com "Sign in with app passwords - Gmail Help"
+
 
 
 
